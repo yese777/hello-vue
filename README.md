@@ -1,6 +1,6 @@
 # hello-vue
 
-> A Vue.js project
+> 一个简单的vue demo
 
 ## Build Setup
 
