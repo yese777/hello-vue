@@ -9,6 +9,7 @@ import UserProfile from '../views/user/Profile'
 import UserList from '../views/user/List'
 
 
+
 import NotFound from '../views/NotFound'
 
 Vue.use(Router);
