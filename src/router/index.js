@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import Login from "../views/Login"
 import Main from '../views/Main'
+import All from '../views/All'
 
 // 用于嵌套的路由组件
 import UserProfile from '../views/user/Profile'
@@ -40,6 +41,11 @@ export default new Router({
     {
       path: '*',
       component: NotFound
+    },
+    {
+      path: '/All',
+      name: 'All',
+      component: All
     }
   ]
 });
